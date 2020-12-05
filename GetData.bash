@@ -25,11 +25,11 @@ echo
 curl $DATA_FILE_URL | grep "${TEST_STATE}" > "${TEST_STATE}.csv"
 echo
 #find -iname "*.out" | xargs -I% head "%"
-echo example rows from file
-head $TEST_FILE
+echo example rows from file:
+head "${TEST_STATE}.csv"
 echo
-echo number columns in csv file
-csvtool width $TEST_FILE
+echo number columns in "${TEST_STATE}.csv" file:
+csvtool width "${TEST_STATE}.csv"
 echo
 
 #REFERENCE
