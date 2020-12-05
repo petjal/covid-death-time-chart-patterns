@@ -4,7 +4,7 @@ A feeble attempt to group states by their patterns of daily deaths over time.
 Example:  See image below, edited from https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths/?itid=sf_coronavirus
 MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak in April 2020, pretty flat since then, small rise late Fall 2020).  Maybe try to group them into about 8 or so groups.  
 
-![Trying to group states by daily-deaths curve shape.](GroupingStatesByDateRateCurves_20201204_petjal.png)
+![Trying to group states by daily-deaths curve shape.](GroupingStatesByDailyDeathRateCurves_20201204_petjal.png)
 
 As opposed to:
 
