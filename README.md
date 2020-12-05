@@ -28,7 +28,8 @@ See: ![here](https://duckduckgo.com/?q=us+climatologic+regions&page=1&adx=shv1b&
 1. Use github action to pull json data from https://api.covidtracking.com/v1/states/daily.json
 2. json fields: date, deathIncrease, state
 3. Calculate the average the daily deaths, for each state, from day 1 through 7 of each month, from March 2020 to current date.
-4. Each state would then have an array of _i_=10 (as of December 7, 2020) values.  
+4. Each state would then have an array of _i_=10 (as of December 7, 2020) values.
+1. Remove population magnitude disparities by normalizing with z-scores.
 5. Calculate the distances of the states from each other in _i_-dimensional space.
 6. Something like that.
 
