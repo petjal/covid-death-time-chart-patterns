@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo pj here
-          apt-get install csvtool
+          #apt-get install csvtool # Error: Process completed with exit code 100.
           #find
           chmod +x GetData.bash
           bash GetData.bash
