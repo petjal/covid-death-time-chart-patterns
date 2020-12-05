@@ -6,7 +6,7 @@ MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak
 
 See https://covidtracking.com/data/charts/us-daily-deaths 
 That is grouping states into virus-health-arbitrary regions. I want to try to group them by virus-health-regions. 
-![Geographic Regions](Screenshot 2020-12-05 at 7.41.57 AM.png)
+![Geographic Regions](Screenshot%202020-12-05%20at%207.41.57%20AM.png)
 
 Plan:
 Pull data from https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
