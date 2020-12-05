@@ -14,9 +14,10 @@ date --utc
 hostname -f
 pwd
 whoami
-apt-get install csvtool
+sudo apt-get install csvtool  # E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+echo
 
-#MAINI
+#MAIN
 
 echo
 #curl --trace-ascii - $DATA_FILE_URL| grep Massachusetts > MA.out
