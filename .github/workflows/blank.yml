@@ -37,4 +37,5 @@ jobs:
           echo pj here
           find
           chmod +x GetData.bash
+          bash GetData.bash
 
