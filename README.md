@@ -6,7 +6,7 @@ Example:  See image below, edited from https://www.washingtonpost.com/graphics/2
 MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak in April 2020, pretty flat since then, small rise late Fall 2020).  Maybe try to group them into about 8 or so groups.  
 
 ## example initial observation
-MA, NY, CT, NJ have quite similar curves. Why? Are they _that_ similar in how and when they locked down, wore masks, washed hands, socially distanced?  Maybe true, but maybe hard to believe.
+MA, NY, CT, NJ have quite similar curves. Why? Are they _that_ similar in how and when they locked down, wore masks, washed hands, socially distanced, or their metabolic health, co-morbidities, vitamin D status, ambient humidity, UV insolation, etc?  Maybe true, but maybe hard to believe.
 
 ![Trying to group states by daily-deaths curve shape.](/media/GroupingStatesByDailyDeathRateCurves_20201204_petjal.png)
 
