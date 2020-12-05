@@ -5,13 +5,19 @@
 #LICENSE: SPDX Apache-2.0
 #VERSION: 
 
+#CONFIG
+DATA_FILE_URL="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
+
+#INIT
 date
 date --utc
 hostname -f
 pwd
 whoami
-echo
-DATA_FILE_URL="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
+apt-get install csvtool
+
+#MAINI
+
 echo
 #curl --trace-ascii - $DATA_FILE_URL| grep Massachusetts > MA.out
 curl $DATA_FILE_URL | grep Massachusetts > MA.out
