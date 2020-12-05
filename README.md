@@ -12,7 +12,7 @@ See https://covidtracking.com/data/charts/us-daily-deaths
 That is grouping states into virus-health-arbitrary geographic regions. I want to try to group them by virus-health-regions. 
 ![Geographic Regions](Screenshot%202020-12-05%20at%207.41.57%20AM.png)
 
-Or see: https://duckduckgo.com/?q=us+climatologic+regions&page=1&adx=shv1b&sexp=%7B%22artexp%22%3A%22b%22%2C%22prodexp%22%3A%22b%22%2C%22prdsdexp%22%3A%22c%22%2C%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%2C%22shv1%22%3A%22b%22%2C%22shvflt%22%3A%22b%22%7D&iax=images&ia=images&iai=https%3A%2F%2Fwww.esri.com%2Farcgis-blog%2Fwp-content%2Fuploads%2F2018%2F04%2FD.png
+Or see: ![here](https://duckduckgo.com/?q=us+climatologic+regions&page=1&adx=shv1b&sexp=%7B%22artexp%22%3A%22b%22%2C%22prodexp%22%3A%22b%22%2C%22prdsdexp%22%3A%22c%22%2C%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%2C%22shv1%22%3A%22b%22%2C%22shvflt%22%3A%22b%22%7D&iax=images&ia=images&iai=https%3A%2F%2Fwww.esri.com%2Farcgis-blog%2Fwp-content%2Fuploads%2F2018%2F04%2FD.png)
 ![US Climate Regions](/media/USClimateRegions_20201205_petjal.png)
 
 #Plan:
