@@ -6,7 +6,7 @@ Example:  See image below, edited from https://www.washingtonpost.com/graphics/2
 MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak in April 2020, pretty flat since then, small rise late Fall 2020).  Maybe try to group them into about 8 or so groups.  
 
 ## example initial observation
-MA, NY, CT, NJ have quite similar curves. Why? Are they _that_ similar in how and when they locked down, wore masks, washed hands, socially distanced, or in their average metabolic health, co-morbidities, vitamin D status, ambient humidity, UV insolation, etc?  Maybe true, but maybe hard to believe.  Maybe the curve shapes are overwhelmed by the data from each state's largest city or two; a follow-up project could be to repeat this exercise but pulling data only from the most-populous city (or county) in each state and see how those compare to these initial state-wide groupings.
+MA, NY, CT, NJ have quite similar curves. Why? Are they _that_ similar in how and when they locked down, wore masks, washed hands, socially distanced, or in their average metabolic health, age, race, immigration population, elder-care facility population and behavior, co-morbidities, vitamin D status, ambient humidity, UV insolation, etc?  Maybe true, but maybe hard to believe.  Maybe the curve shapes are overwhelmed by the data from each state's largest city or two; a follow-up project could be to repeat this exercise but pulling data only from the most-populous city (or county) in each state and see how those compare to these initial state-wide groupings.
 
 ![Trying to group states by daily-deaths curve shape.](/media/GroupingStatesByDailyDeathRateCurves_20201204_petjal.png)
 
@@ -29,7 +29,7 @@ See: ![here](https://duckduckgo.com/?q=us+climatologic+regions&page=1&adx=shv1b&
 2. json fields: date, deathIncrease, state
 3. Calculate the average the daily deaths, for each state, from day 1 through 7 of each month, from March 2020 to current date.
 4. Each state would then have an array of _i_=10 (as of December 7, 2020) values.
-1. Remove population magnitude disparities by normalizing with z-scores.
+1. Remove population magnitude disparities by normalizing with z-scores or from 0-100 or something.
 5. Calculate the distances of the states from each other in _i_-dimensional space.
 6. Something like that.
 
