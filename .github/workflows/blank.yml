@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo pj here
-          find
+          #find
           chmod +x GetData.bash
           bash GetData.bash
 
