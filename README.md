@@ -1,6 +1,8 @@
 # covid-death-time-chart-patterns
-feeble attempt to group states by their patterns of daily deaths over time. 
-Example:  MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak in April 2020, pretty flat since then, small rise late Fall 2020).  Maybe try to group them into about 8 or so groups.  
+A feeble attempt to group states by their patterns of daily deaths over time. 
+
+Example:  See:  https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths/?itid=sf_coronavirus
+MA, NY, CT, NJ are quite similar in pattern of daily deaths over time (huge peak in April 2020, pretty flat since then, small rise late Fall 2020).  Maybe try to group them into about 8 or so groups.  
 
 Plan:
 Pull data from https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
@@ -13,3 +15,4 @@ Something like that.
 But first, let's just try to automate calculating those 9 numbers for each state. 
 
 This is a complete learning experience for me. Suggestions welcome--thanks!
+
