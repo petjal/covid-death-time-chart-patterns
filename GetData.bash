@@ -5,4 +5,4 @@
 #LICENSE: SPDX Apache-2.0
 #VERSION: 
 
-curl https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
+curl https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv | grep Massachusetts > MA.out
